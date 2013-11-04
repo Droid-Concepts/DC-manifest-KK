@@ -460,7 +460,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- Vendor Packages -->
-  <project path="vendor/Droid_Concepts" name="vendor_Droid_Concepts" remote="dc" revision="dc43" />
+  <project path="vendor/Droid_Concepts" name="vendor_Droid_Concepts" remote="dc" revision="kk44" />
   <project path="vendor/samsung" name="vendor_samsung" remote="dc" revision="dc43-a" />
 
 </manifest>
