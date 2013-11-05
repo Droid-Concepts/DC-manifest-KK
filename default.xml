@@ -5,6 +5,10 @@
            fetch="https://android.googlesource.com/" 
            review="https://android-review.googlesource.com/"/>
 
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/"
+           review="review.cyanogenmod.com" />
+
   <remote  name="dc"
            fetch="https://github.com/Droid-Concepts/" />
 
@@ -20,7 +24,7 @@
   <project path="bionic" name="android_bionic" remote="dc" revision="kk44" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="android_dalvik" remote="dc" revision="kk44" />
   <project path="developers/build" name="platform/developers/build" />
