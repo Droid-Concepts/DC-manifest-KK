@@ -312,7 +312,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="hardware/samsung" name="hardware_samsung" remote="dc" revision="dc43" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="dc" revision="kk44" />
 
   <!-- Kernel Sources -->
   <project path="kernel/samsung/jf" name="DC-Elite_kernel_jf" remote="dc" revision="dc43" />
