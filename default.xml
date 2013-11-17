@@ -336,10 +336,11 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="tg" revision="kk4.4" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="tg" revision="kk4.4" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+
   <!-- Kernel Sources -->
   <project path="kernel/samsung/jf" name="DC-Elite_kernel_jf" remote="dc" revision="dc43" />
 
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="tg" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
 
@@ -465,12 +466,12 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
 
-  <!-- System and Tool Packages -->
-  <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="system_core" remote="dc" revision="kk44-1" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
+ <!-- System and Tool Packages -->
+  <project path="system/core" name="android_system_core" remote="tg" revision="kk4.4" />
+  <project path="system/extras" name="android_system_extras" remote="tg" revision="kk4.4" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
+  <project path="system/netd" name="android_system_netd" remote="tg" revision="kk4.4" />
+  <project path="system/qcom" name="android_system_qcom" remote="tg" revision="kk4.4" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="android_system_vold" remote="tg" revision="kk4.4" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
@@ -488,5 +489,8 @@
   <!-- Vendor Packages -->
   <project path="vendor/Droid_Concepts" name="vendor_Droid_Concepts" remote="dc" revision="kk44" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tg" revision="jb4.3" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" />
 
 </manifest>
