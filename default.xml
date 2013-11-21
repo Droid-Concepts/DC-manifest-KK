@@ -343,7 +343,7 @@
   <!-- Kernel Sources -->
   <project path="kernel/samsung/jf" name="DC-Elite_kernel_jf" remote="dc" revision="dc43" />
 
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="tg" revision="kk4.4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
 
