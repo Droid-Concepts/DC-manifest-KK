@@ -300,7 +300,7 @@
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="tg" revision="kk4.4" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="dc" revision="kk44" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="tg" revision="kk4.4" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
