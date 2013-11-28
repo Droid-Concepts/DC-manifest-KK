@@ -497,5 +497,8 @@
   <!-- Vendor Packages -->
   <project path="vendor/Droid_Concepts" name="vendor_Droid_Concepts" remote="dc" revision="kk44" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tg" revision="jb4.3" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.2" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.2" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.2" /> 
 
 </manifest>
