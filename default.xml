@@ -15,7 +15,7 @@
   <remote  name="tg"
            fetch="https://github.com/TEAM-Gummy/" />
 
-  <default revision="refs/tags/android-4.4_r1"
+  <default revision="refs/tags/android-4.4_r1.2"
            remote="aosp"
            sync-j="4" />
 
