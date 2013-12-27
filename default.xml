@@ -283,7 +283,7 @@
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-11.0" />
 
   <!-- Frameworks Packages -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="tg" revision="kk4.4" />
   <project path="frameworks/base" name="frameworks_base" remote="dc" revision="kk44" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
